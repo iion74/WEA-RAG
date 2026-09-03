@@ -1,0 +1,23 @@
+{
+  "hit@k": 99.9594868332208,
+  "recall@k": 98.69007427413909,
+  "full_coverage@k": 97.42066171505739,
+  "total": 7405,
+  "avg_queries": 1.9912221471978393,
+  "avg_bridge_queries": 0.0,
+  "dense_k": 200,
+  "rerank_k": 120,
+  "top_k": 8,
+  "two_hop": true,
+  "subquestion_mode": "heuristic",
+  "subquestion_max": 3,
+  "bridge_query_per_doc": 2,
+  "graph_connectivity_weight": 0.2,
+  "question_overlap_weight": 0.1,
+  "dense_weight": 0.05,
+  "evidence_sentences": 16,
+  "evidence_per_doc": 2,
+  "candidate_mode": "provided_context",
+  "fallback_global_if_empty": false,
+  "limit": null
+}

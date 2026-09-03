@@ -1,0 +1,14 @@
+{
+  "exact_match": 47.38690074274139,
+  "f1": 60.70088414329632,
+  "total": 7405,
+  "predicted": 7405,
+  "model_seconds": 1253.516053199768,
+  "input_tokens": 8822222,
+  "output_tokens": 34043,
+  "avg_latency_sec": 0.1714235820937688,
+  "avg_model_latency_sec": 0.16927968307896935,
+  "avg_input_tokens": 1191.3871708305198,
+  "avg_output_tokens": 4.59729912221472,
+  "seconds": 1269.391625404358
+}

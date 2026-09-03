@@ -1,0 +1,42 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Downloaded datasets and generated retrieval assets
+data/*.json
+data/*.jsonl
+rag_corpus/*.json
+rag_corpus/*.jsonl
+rag_index/*
+!data/README.md
+!rag_corpus/.gitkeep
+!rag_index/.gitkeep
+
+# New experiment outputs
+logs/*
+predictions/*
+metrics/*
+rag_cache/*
+!logs/.gitkeep
+!predictions/.gitkeep
+!metrics/.gitkeep
+!rag_cache/.gitkeep
+artifacts/analysis/tuned_predictions/
+artifacts/analysis/selector_tuning_reproduced.json
+artifacts/analysis/selector_tuning_reproduced.md
+
+# Local/editor files
+.DS_Store
+.idea/
+.vscode/
+*.pdf
+*.hwp
+*.docx
