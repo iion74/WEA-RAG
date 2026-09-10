@@ -14,13 +14,7 @@ The online run that generated the dual candidates used a WEA minimum score of
 lock score of 0.88, dynamic margins, and conflict guards. The final reported
 answers were then reselected from those stored candidates by the post-hoc tuned
 selector. This post-hoc selector used only a WEA minimum score of 0.65, a RAG
-lock score of 0.88, and the following fixed model/split margins:
-
-| Model | Distractor | Fullwiki |
-|---|---:|---:|
-| Qwen3-4B-Instruct-2507 | 0.20 | 0.08 |
-| Llama-3.2-3B-Instruct | 0.20 | 0.20 |
-| MiniCPM3-4B | 0.03 | 0.20 |
+lock score of 0.88
 
 The per-example prediction traces are canonical for operational counts. The
 aggregate Qwen distractor metrics file contains lower cumulative web counters
