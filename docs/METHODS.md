@@ -134,16 +134,6 @@ select WEA when S_WEA >= 0.65 and delta >= margin,
 except keep RAG when S_RAG >= 0.88 and delta < margin + 0.05
 ```
 
-| Model | Distractor | Fullwiki |
-|---|---:|---:|
-| Qwen3-4B-Instruct-2507 | 0.20 | 0.08 |
-| Llama-3.2-3B-Instruct | 0.20 | 0.20 |
-| MiniCPM3-4B | 0.03 | 0.20 |
-
-The margins and minimum score were selected by maximizing `EM + F1` over the
-complete development split. No separate held-out partition is part of the
-reported version-4 results.
-
 ## Generation and runtime environment
 
 Standalone Baseline and RAG runs used a maximum of 32 newly generated tokens.
