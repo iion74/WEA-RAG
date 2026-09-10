@@ -1,5 +1,5 @@
 # A Selective Web Evidence Augmentation Framework Based on Retrieval Sufficiency Assessment for Multi-Hop Question Answering
-
+<img width="1257" height="650" alt="Image" src="https://github.com/user-attachments/assets/7ab23947-274e-4918-90f2-53a94342c482" />
 Official reproducibility package for **A Selective Web Evidence Augmentation
 Framework Based on Retrieval Sufficiency Assessment for Multi-Hop Question
 Answering**.
