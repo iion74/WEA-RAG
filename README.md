@@ -1,4 +1,4 @@
-# WEA-RAG
+# A Selective Web Evidence Augmentation Framework Based on Retrieval Sufficiency Assessment for Multi-Hop Question Answering
 
 Official reproducibility package for **A Selective Web Evidence Augmentation
 Framework Based on Retrieval Sufficiency Assessment for Multi-Hop Question
