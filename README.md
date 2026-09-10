@@ -4,9 +4,6 @@ Official reproducibility package for **A Selective Web Evidence Augmentation
 Framework Based on Retrieval Sufficiency Assessment for Multi-Hop Question
 Answering**.
 
-This release corresponds to manuscript version 4. It contains the frozen
-metrics, prediction traces, retrieval traces, shared web cache, analysis
-outputs, and result figures used for that version.
 
 WEA-RAG first generates an answer from split-aware retrieval. A rule-based gate
 then uses question-context coverage and missing terms to decide whether web
